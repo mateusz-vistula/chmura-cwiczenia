@@ -1,12 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <title>Moja pierwsza strona w chmurze</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wizytówka - Podstawy Chmury</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #1e3a8a; }
+    h2 { color: #1e293b; margin-top: 24px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
-<body style="font-family:sans-serif; max-width:640px; margin:40px auto">
-  <h1>Dzień dobry z chmury ☁️</h1>
-  <p>Tę stronę opublikował(a): (Mateusz), grupa (1).</p>
-  <p>Nie mam własnego serwera — stronę udostępnia GitHub.</p>
+<body>
+
+  <header>
+    <h1>Mateusz — Grupa 1</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Pięć cech chmury według NIST</h2>
+      <ul>
+        <li><strong>Samoobsługa na żądanie:</strong> Użytkownik sam rezerwuje i uruchamia potrzebną moc obliczeniową bez czekania na dział IT.</li>
+        <li><strong>Szeroki dostęp sieciowy:</strong> Dostęp do danych i usług jest możliwy przez internet z dowolnego urządzenia, np. telefonu czy laptopa.</li>
+        <li><strong>Wspólna pula zasobów:</strong> Wielu użytkowników współdzieli fizyczną infrastrukturę dostawcy, która jest dynamicznie przydzielana.</li>
+        <li><strong>Szybka elastyczność:</strong> Zasoby można płynnie i błyskawicznie powiększać lub redukować zależnie od chwilowego obciążenia.</li>
+        <li><strong>Usługa mierzona:</strong> Klient płaci wyłącznie za realnie zmierzone i zużyte jednostki obliczeniowe lub przestrzeń dyskową.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Najciekawszy model chmury</h2>
+      <p>Najbardziej zaciekawił mnie model <strong>FaaS (Serverless)</strong>, ponieważ pozwala skupić się wyłącznie na pisaniu logiki kodu bez martwienia się o konfigurację maszyn czy płacenie za serwery w czasie bezczynności.</p>
+    </section>
+
+    <section>
+      <p>Kod źródłowy projektu: <a href="https://https://github.com/mateusz-vistula/chmura-cwiczenia">Repozytorium na GitHubie</a></p>
+    </section>
+  </main>
+
 </body>
 </html>
